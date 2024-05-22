@@ -1,9 +1,10 @@
+import requests
 import pandas as pd
 import geopandas as gpd
 
 ### NUSE
 nuse_df = pd.read_csv(
-    r"C:\Users\lawsu\OneDrive\Documentos\Visualización de datos\Proyecto\Data raw\NUSE.csv",
+    r"https://raw.githubusercontent.com/LauraSuarezS/TalentoTech/main/Data%20raw/NUSE.csv",
     encoding="latin-1",
     sep=";",
 )
@@ -18,7 +19,7 @@ nuse_df = nuse_df.drop_duplicates()
 
 ### Tipificación NUSE
 nuse_tipificacion_df = pd.read_csv(
-    r"C:\Users\lawsu\OneDrive\Documentos\Visualización de datos\Proyecto\Data raw\NUSETipificacion.csv",
+    r"https://raw.githubusercontent.com/LauraSuarezS/TalentoTech/main/Data%20raw/NUSETipificacion.csv",
     encoding="latin-1",
     sep=";",
 )
@@ -33,9 +34,10 @@ nuse_tipificacion_df = nuse_tipificacion_df.drop_duplicates()
 
 
 ## CAI's
-cai_df = gpd.read_file(
-    r"C:\Users\lawsu\OneDrive\Documentos\Visualización de datos\Proyecto\Data raw\CAI.geojson"
+cai_response = requests.get(
+    r"https://raw.githubusercontent.com/LauraSuarezS/TalentoTech/main/Data%20raw/CAI.geojson"
 )
+cai_df = gpd.read_file(cai_response.text)
 cai_df["CAICOD_ENT"] = cai_df["CAICOD_ENT"].astype("int64")
 cai_df["CAICOD_PRO"] = cai_df["CAICOD_PRO"].astype("int64")
 cai_df["CAIFECHA_I"] = cai_df["CAIFECHA_I"].astype("datetime64[ns]")
@@ -132,3 +134,15 @@ result_security_df = result_security_df[
 result_security_df["CANTIDAD_CAI"] = (
     result_security_df["CANTIDAD_CAI"].fillna(0).astype("int64")
 )
+
+result_security_df = result_security_df[
+    result_security_df["INCIDENTE"].isin(
+        [
+            "RIÑA",
+            "ALTERACIÓN DEL ORDEN PÚBLICO",
+            "PERSONA O VEHÍCULO SOSPECHOSO",
+            "ATRACO / HURTO EN PROCESO",
+        ]
+    )
+]
+result_security_df.to_csv(r"Data refinada\security.csv", sep=";", index=False)
