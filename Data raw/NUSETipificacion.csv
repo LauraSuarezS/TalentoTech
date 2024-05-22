@@ -1,0 +1,167 @@
+COD_INCIDENTE;INCIDENTE;DEFINICION
+401;Desarme;Programa coordinado directamente por la Secretaría de Gobierno, donde se comunican personas que deseen hacer entrega de armas.
+535;Información Confidencial;"Información que puede conducir a la captura o hallazgo de: caleta de armas, cabecilla de la guerrilla o paramilitar buscado, ubicación de un secuestrado, ubicación de una obra de arte u objeto de valor robado. Incluye casos de extorsión, contrabando y perturbación electoral.
+• Explotación sexual: Todo tipo de actividad en que una persona usa el cuerpo de otra para sacar ventaja o provecho de carácter sexual, basándose en una relación de poder."
+601;Accidente Cerebro Vascular;"Evento de origen cerebral que se manifiesta por incapacidad para articular palabra, desviación de la cara, incapacidad para la movilización de cualquier extremidad (superiores o inferiores); puede provocar estado de Inconsciencia."
+602;Caída de Altura;Se utiliza este código en caso de caída de altura y/o trauma craneoencefálico, puede provocar estado de Inconsciencia en cuyo caso se tipificará 613.
+603;Convulsión;"Se caracterizan por movimientos incontrolados e involuntarios; manifestado en uno o más miembros; salivación profusa, ocasionalmente relajación de esfínteres o incluso hasta la pérdida del estado de conciencia."
+604;Evento Respiratorio;Situación que ocasiona una sensación o incomodidad al respirar o la sensación de no estar recibiendo el suficiente aire, puede producir cambios de color en la piel y observarse con mayor esfuerzo al respirar, también se puede originar por la presencia de un cuerpo extraño sólido o líquido en la tráquea, laringe o faringe.
+605;Dolor torácico;Sensación de molestia, incomodidad o dolor que se siente en el pecho (algún punto a lo largo de la parte anterior del cuerpo entre el cuello y el abdomen superior).
+606;Electrocución / Rescate;Emergencia originada al entrar una persona en contacto de manera directa o indirecta con energía eléctrica.
+607;Patología Ginecobstétrica;"Condiciones o procesos anormales asociados con el embarazo (dolor, sangrado, salida de líquido amniótico, salida de partes fetales, etc.).
+Parto extra hospitalario.
+Aborto: Interrupción o terminación a destiempo de un embarazo, antes de la semana 20 de gestación."
+608;Heridos;"Persona que ha sufrido alguna lesión en su cuerpo por causas accidentales; también utilizar este código en caso de AUTO LESIÓN ACCIDENTAL con cualquier tipo de arma.
+Incluye caída de propia altura y actividades deportivas."
+610;Intoxicación;Entrada en el organismo de sustancias capaces de provocar alteraciones en las funciones del ser humano, y que puede ocasionar salivación abundante, calor, aumento de la frecuencia cardiaca, piel roja, vómito y/o diarrea.
+611;Maltrato;"Cualquier acción intencional que provoque daño psicológico o físico a niños y/o niñas, personas discapacitadas y/o adultos mayores, incluye también:
+* Los casos informados  directamente de Bienestar Familiar de  maltrato y solicitando apoyo de la Policía.
+*Los casos  donde se reporta abandono de niños y/o niñas, personas discapacitadas y/o adultos mayores al interior del domicilio.
+También incluye los casos en donde se reporta que los padres no han recogido a un menor del colegio.
+Este código no se combina con riña (934), si esta ocurre en presencia de menores se debe documentar en el campo “Descripción”  (Menores de edad involucrados)."
+611M;Maltrato a Mujer;Acción intencional que provoque daño físico  o psicológico a una mujer de cualquier edad. Este código se debe agregar como marca seguido a los otros códigos utilizados.
+613;Inconsciente/paro cardiorrespiratorio;Inconsciencia: Estado de la persona que ha perdido el conocimiento y la capacidad de moverse y de sentir. Todo incidente de salud que derive en estado de Inconsciencia sin importar la causa se debe tipificar como 613. Paro Cardiorrespiratorio: Es la interrupción repentina y simultánea de la respiración y el funcionamiento del corazón que produce pérdida de la consciencia y potencialmente la muerte.
+615;Quemaduras;Lesión en los tejidos del cuerpo causada por la exposición al fuego, calor, sustancias químicas, rayos solares, radiaciones, líquidos hirvientes o frío extremo.
+616;Sangrado Vaginal;Sangrado anormal por genitales, manchado entre períodos o menstruaciones.
+617;Síntomas gastrointestinales;Urgencia producida por afecciones que comprometen al estómago y los intestinos (dolor abdominal, diarrea, náuseas, vómitos, heces con sangre.)
+701;Abejas;Manejo y control de enjambres de abejas ubicados en estructuras o edificaciones y que representan riesgo para la comunidad. (incluye avispas)
+702;Abrir domicilio;Procedimiento preventivo de una potencial emergencia al interior de una edificación.
+703;Elemento caído y/o en peligro de caer.;Prevención de una potencial emergencia, la cual se puede originar a partir de la inminente caída de un elemento y que puede poner en peligro la integridad física de las personas o los bienes.  Emergencia originada por la caída de un elemento.   Se debe usar este código cuándo se reporte: Árbol caído, Poste afectado o caído.
+705;Emergencia Aérea;Emergencia originada por una falla en aeronave.
+707;Incidente rescate acuático;Proceso de localización y rescate de víctimas atrapadas en aguas oscuras o rápidas.
+708;MATPEL;Incidentes relacionados con artículos o sustancias sólidas, liquidas o gaseosas, que cuándo son transportados por cualquier medio, o cuándo son expuestos, son capaces de constituir un riesgo importante para la vida, la salud, los bienes o el medio ambiente.
+709;Rescates;Búsqueda, localización, acceso y rescate de víctimas atrapadas en sitios de difícil acceso.
+713;Rescates Montaña;Procedimiento de rescate tendiente a la localización y rescate de personas en sitios montañosos o de difícil acceso.
+715;Sismo;Un sismo es una liberación de energía que se manifiesta por medio de vibraciones del terreno.
+716;Fuga de Gas Natural o Propano;Fugas en las tuberías que transportan gas natural o en gasodomésticos que utilizan este como combustible, Se pueden presentar en la vía pública, al interior de los inmuebles. También por manipulación equivocada de cilindros y elementos involucrados en el manejo de gas licuado de petróleo (gas propano).
+717;Prevención;USO EXCLUSIVO DESPACHO DE BOMBEROS
+720;Polvora;EXPENDIÓ Y MANIPULACIÓN DE PÓLVORA
+720H;polvora;HERIDOS POR EXPENDIÓ Y MANIPULACIÓN DE PÓLVORA
+802;Vehículo peligroso;Vehículo cuyo conductor realiza maniobras peligrosas, poniendo en riesgo su vida o la de otros.
+901;Muerto;"Este tipo de incidente se debe usar cuándo se reportan casos de:
+- Homicidio: Delito que comete quien da muerte a otra persona.
+- Muerto: Presencia de un muerto cuándo se desconocen las causas de su deceso.
+- Suicidio: Acto de quitarse la vida."
+903;Rapto / Secuestro;"Rapto: Delito consistente en la retención de una persona, privándola de libertad en contra de su voluntad, sin fines delictivos. Por ejemplo el rapto de un hijo por parte de su padre.
+Secuestro: Delito que consiste en retener de forma indebida o ilegal con fines extorsivos."
+904;Hurto Efectuado;"Comete este delito quien toma un bien mueble y ajeno sin la voluntad de  su dueño, sometiendo a la víctima a estado de indefensión, o con violencia sobre las personas o las cosas. Aquellos hurtos en los que no hay presencia de agresores. O que del literal anterior no existan  características o sobrepase el tiempo razonable previsto en el 905, teniendo en cuenta la reacción de una patrulla policial. Usar también para casos de:
+• Estafa: delito contra el patrimonio económico: lo comete la persona que utilizando maniobras o engaños obtiene provecho económico para sí o para un tercero.
+• Abuso de confianza: incidente en el que una persona comete un delito afectando a otra persona que depositó en ella su confianza por su entorno o ambiente.
+• Hurto simple: consiste el delito de hurto simple en el apoderamiento ilegítimo de una cosa mueble, ajena en todo o en parte, realizado sin fuerza en las cosas, ni violencia o intimidación en las personas.
+• Abigeato: Hurto de animales semovientes."
+905;Atraco / Hurto en Proceso;"Se tipifica con este código aquellos casos en los cuales el usuario puede informar alguna (s) característica (s) del delincuente (s) implicado (s) o del medio en que se moviliza o la ruta que siguió, en un tiempo razonablemente corto de máximo 30 minutos. Comete este delito quien toma un bien mueble y ajeno sin la voluntad de su dueño. Delito a mano armada que ocurre en el acto, deteniendo el paso o el curso normal de las cosas, deteniendo el paso a una persona para agredirla hurtándole sus pertenencias. Usar también para casos de:
+• Desvalijadores en acción: se refiere al hurto de partes de automotores; puede ser una contravención o un delito, dependiendo de la parte hurtada, si dicha parte es esencial para el funcionamiento del vehículo se convierte en delito.
+• Raponazo: está sujeto a su tipificación de los dos tipos de incidentes 904, 905 teniendo en cuenta la variable del tiempo y distancia donde ocurrieron los hechos.
+• Abigeato: Hurto de animales semovientes."
+906;Violencia Sexual;"El concepto de violencia sexual incluye diferentes tipos y manifestaciones que pueden ser las siguientes:Contacto físico; agrupa agresiones físicas. Con contacto:
+• Acceso carnal violento.• Cualquier tipo de contacto de carácter sexual en donde medie el poder o la coerción.• El incesto.• La violación.• El tocamiento o manoseo a un adulto/ niño o niña con o sin ropa• Inducir, obligar o permitir a un adulto/ niño o niña que toque de manera inapropiada a otra."
+909;Exhibiciones y/o actos obscenos;"Persona que ejecutare o hiciese ejecutar por otros actos, gestos, actitudes o exhibiciones obscenas, o profiriere o hiciere proferir palabras obscenas, expuesto a que sean vistos u oídos involuntariamente por terceros.
+Sin contacto
+• Seducción verbal.
+• Solicitud morbosa
+• Realizar actos sexuales en presencia de adultos / niños o niñas.
+• Masturbación en presencia de personas / niños o niñas.
+• Pornografía
+• Exhibición de los genitales o gestos sexuales para obtener gratificación
+sexual.
+• Espiar a alguien mientras se viste, se baña o realiza sus necesidades de
+aseo."
+910;Lesiones Personales;Delito en contra de la vida y la salud personal, que comete el que cause a otro un daño que deje en su cuerpo un vestigio o altere su salud física.
+911;Disparos;Información dónde se reporta el haber escuchado y / o presenciado disparos, sabiendo o no el lugar de donde provienen.
+912;Daños en Propiedad Pública/privada;Daño ocasionado a bienes de titularidad pública, tales como plazas, caminos públicos, parques, calles. Incluye propiedad privada.
+913;Vehículo Hurtado;Consiste en el apoderamiento ilegítimo de un vehículo automotor ajeno.
+914;Vehículo abandonado/mal estacionado;"Vehículo abandonado en un lugar, cuya presencia no es habitual en la zona donde se encuentra.
+Vehículo que puede estar obstruyendo una vía o un garaje."
+915;Intento/Violación de Domicilio;"Avistamientos de personas que están tratando de entrar en una propiedad en cuyas inmediaciones el Usuario 123 manifiesta no conocerlo (el desconocido aún no ha entrado en la propiedad). Si han ingresado a la propiedad se debe tipificar como 905.
+Utilizar este tipo de incidente para casos donde se reporta una persona que ingresa a una propiedad sin autorización su residente."
+916;Persona o Vehículo Sospechoso;"Persona que la hace sospechosa su actitud con relación al comportamiento de las personas del lugar dónde se encuentra, se puede movilizar a pie o en un vehículo.
+Vehículo que se encuentra en extrañas circunstancias, puede estar estacionado o en movimiento."
+918;Intento de Suicidio;"Situación en la que una persona está realizando o ha realizado acciones para quitarse la vida.
+Ideas de Suicidio: Manifestación expresa del deseo a través de palabras de quitarse la vida."
+919;Persona Pidiendo Auxilio;Este tipo de incidente se debe utilizar para reportes en los cuales alguna persona o personas manifiestan requerir ayuda de tipo policial, médico, o de otra clase, pero no se logra identificar con precisión la situación que se ha suscitado.
+922;Narcóticos;Se refiere al consumo, porte, venta, distribución o fabricación de sustancias que produzcan dependencia psicotrópica.
+923;Habitante de la Calle;"Persona que por su aspecto o comportamiento demuestra evidencia de ser habitante de la calle y que está ocasionando alguna incomodidad a la ciudadanía.
+Incluye actos de mendicidad y explotación comercial."
+924;Enfermo;"Condición que da cuenta que una persona tiene detrimento en su salud física. Casos reportados en los que no se tiene claridad en cómo se ha visto afectada la salud de la persona que requiere la ayuda.
+Incluye síntomas clínicos similares a los de una influenza estacional que van desde infecciones asintomáticas hasta neumonías severas, llevando incluso al riesgo de muerte (Gripa porcina)."
+926;Embriaguez;"Se utiliza para tipificar incidentes en los que se reportan personas que se encuentran bajo los efectos del alcohol y a las que dicho estado no les permite dilucidar o sortear situaciones cotidianas o que están alterando el orden público.
+Información de venta de licor para consumo en espacio público. Consumo de licor en espacio público."
+926M;Venta o Consumo alcohol u otro en Menor;Venta o consumo de alcohol, cigarrillo y/o sustancias psicoactivas donde se vean involucrados menores de 18 años.
+927;Quemas Prohibidas;Fuego controlado ocasionado por acto humano, que genera riesgo de un potencial fuego incontrolado.
+928;Inundación;Son caudales o niveles de agua por encima del nivel normal.
+929;Explosión;Liberación brusca de una gran cantidad de energía, de origen térmico, químico o nuclear, encerrada en un volumen relativamente pequeño, la cual produce un incremento violento y rápido de la presión, con desprendimiento de calor, luz y gases. Va acompañada de estruendo y rotura violenta del recipiente que la contiene.
+930;Deslizamiento;"Son desplazamientos descendentes del suelo o rocas a lo largo de una o varias superficies.
+Incluye avalanchas y amenazas de deslizamientos."
+931A;Incendio estructural;Incendios o fuegos sin control, ocasionados en estructuras o edificaciones de cualquier tipo de magnitud y material de construcción.
+931B;Incendio Vehicular;Presencia de fuego en cualquier tipo de vehículo, de rápida propagación por haber presencia de material combustible y/o líquidos inflamables.
+931C;Incendio forestal;Ocurre cuando el fuego se extiende sobre un terreno forestal, afectando el entorno humano, al igual que el ecosistema.
+931D;Incendio con MATPEL;Conflagración, en la cual hay riesgo con materiales peligrosos, ya sean artículos o sustancias sólidas, líquidas o gaseosas.
+931E;Incendio en aeronave;Presencia de fuego en cualquier tipo de aeronave.
+932;Alteración del Orden Público;"Es todo acontecimiento o evento que altera el orden o la tranquilidad pública, ya sea por escándalo, música, alto volumen o perifoneo. Los casos en los que se reporta alteración del orden público por ruido o escándalo en establecimientos abiertos al público, después de las 3:00
+a.m. se tipifican como 964."
+933;Delincuente capturado por civil;Persona capturada por la ciudadanía porque presuntamente cometió un delito y la autoridad debe acercarse a verificar dicha situación.
+934;Riña;Es todo incidente o altercado que pueda surgir entre dos o más personas ocasionando agresiones físicas, que pueden llevar incluso a poner en riesgo la vida de una persona.
+935;Verificar Situación;"Se utiliza este código para tipificar situaciones no contenidas en el documento Protocolario. Su selección busca la verificación o asistencia de la Agencia competente al lugar del incidente.          Utilizar este tipo de incidente para casos de:
+• Caso Cuenta: Incidente de persona que se niega a pagar la cuenta en un establecimiento comercial.
+• Acaparamiento y especulación: Persona que se vale de su condición para retener con fines lucrativos malintencionados un elemento de primera necesidad.
+• Actos contra símbolos: Es una contravención y consiste en actuar en detrimento de un símbolo patrio.
+• Moneda falsa: Caso donde se presume que las denominaciones de dinero que porta una persona son falsas, quien determina si la denominación es falsa es un perito en la materia.
+• Uso ilícito de comunicaciones: Consiste en dar uso indebido o escuchar, grabar conversaciones ajenas por cualquier medio electrónico cuándo no se tiene la autorización legal
+para ello.
+• Cohecho o concusión: Cohecho consiste en dar u ofrecer y concusión en recibir o exigir dadiva
+dinero u otra contraprestación a un servidor público para que realice o no un acto propio de sus funciones.
+• Firma de boletas de citación: es un llamamiento que hace una autoridad judicial a una persona para que comparezca ante ella con un objeto determinado que se le haga saber.
+•Simulacro: Solicitar entidad donde se va a realizar, fecha, hora y tipo de simulacro.
+• Reclutamiento forzado: Procedimiento que se llevará a cabo para las llamadas donde informen de la presencia del ejército en determinado sector de la ciudad llevándose a jóvenes para el servicio militar, preguntar tipo de vehículo y placas"
+936;Persona tendida en la vía;Incidente que describe la presencia de una persona que se encuentra tendida o acostada en la vía pública, y de la cual se desconoce su estado de salud.
+937;Animal Atrapado;Aquel animal que es reportado como atrapado en un lugar de difícil acceso.
+937M;Animal Maltratado;Todo acto de violencia, crueldad, abandono, desprotección, puesta en riesgo, tenencia irresponsable, sufrimiento físico u otras que afecten el bienestar del animal.
+938;Animal Peligroso;Se trata de un animal que por sus características y condiciones, puede llegar a ocasionar o ha ocasionado daño a los habitantes de la ciudad. En el caso que se presenten heridos activar CRUE.
+941;Trastorno mental;Cualquier alteración del comportamiento de una persona y que potencialmente pone en riesgo la vida de sí mismo o de otras personas. Persona que solicita voluntariamente hablar con el psicólogo o manifiesta tener problemas de depresión.
+942;Accidente Tránsito Simple;Suceso eventual que altera el orden regular del tránsito en la ciudad, en el cual pueden estar involucrados vehículos de cualquier característica en donde hay solo afectación material. En caso que el accidente se origine por un vehículo en fuga combinar éste código con 802
+942H;Accidente Tránsito con Heridos/Muertos;Suceso eventual que altera el orden regular del tránsito en la ciudad, en el cual están involucrados: personas y vehículos de cualquier característica en donde resultan heridos y/o muertos. Este tipo de incidente no incluye accidentes con bicicletas, a menos que también esté involucrado un vehículo automotor. Si hay un incidente donde esté involucrada una bicicleta y el Usuario 123 requiere la unidad de tránsito aun cuando no haya vehículos involucrados, se debe tipificar como 942H.
+943;Movilidad / Señalización;Daño en dispositivo eléctrico que regula el tránsito de vehículos y peatones, señales de tránsito y afectación a la Movilidad.
+944;Manifestación / Motín;"Manifestación por lo general en espacio público, que tienen como finalidad exteriorizar deseos, aspiraciones, sentimientos o protestas.
+Motín es un movimiento desordenado de personas que concurre con actos de violencia en contra de las autoridades, eventualmente puede derivar en lesiones a personas o daños materiales.
+• Actos de Sabotaje."
+946;Remisión Dineros / Acompañamiento;Se define básicamente como la solicitud que realiza un ciudadano o una entidad para un acompañamiento de Policía en el traslado de dineros u otros elementos que representen valor de un sitio a otro.
+947;Alarma;"Señal, generalmente sonora, que da una alerta de algo que está sucediendo.
+Existen dos tipos de reportes de Alarmas:
+1. Grabaciones que son remitidas automáticamente a la línea 123. Solo se tramita la grabación de alarma bancaria y comunitaria.
+2. Reportes de personal de empresas de monitoreo de alarmas; siempre y cuando el supervisor este en el sitio y suministre información de lo que  está sucediendo."
+950;Acción Subversiva;Se usa para referirse a un ataque subversivo a una unidad policial o militar o a la sociedad civil, de igual forma para referirse al avistamiento o presencia de un miembro perteneciente a un grupo subversivo.
+951;Invasión de Terreno o Edificio;Invasión u ocupación de hecho en un terreno o edificio sin ser su dueño o poseedor.
+952;Menor o persona Abandonada;Información sobre Abandono de Menor, personas de la tercera edad o discapacitados abandonados.
+953;Muerte Natural;"Se define así a toda muerte que se dé por causas naturales, de manera  no violenta y donde no intervienen la voluntad ni las acciones de las demás personas.
+Determine teniendo en cuenta uno o dos de los siguientes aspectos:
+1. Que el fallecimiento lo certifique una persona con conocimientos en salud.
+2. Que existan antecedentes de una enfermedad terminal."
+958;Actos contra el ambiente;"Acciones cometidas en detrimento de los recursos naturales protegidos, causando daño ecológico.
+• Tala de bosques
+• Pesca ilícita
+• Proliferación de basuras.
+• Contaminación"
+961;Solicitud Apoyo / Desacato;"Solicitud de apoyo a uniformados, este apoyo puede ser solicitado por un desacato o un irrespeto a la autoridad o por otros motivos.
+Usar también para casos relacionados con:
+• Asonada: Manifestación pública que quiere impedir el actuar de una autoridad competente Ej. Impedir el sellamiento de un establecimiento público.
+• Asistencia militar: Es el apoyo que brindan las fuerzas militares a la Policía Nacional en caso de una confrontación armada.
+* Recoger retenido: Cuando se solicite apoyo por parte de algún funcionario público para llevar a cabo el desarrollo de sus funciones."
+964;Indebido Uso de Establecimiento;"Contravención que consiste en el funcionamiento de un Establecimiento, distinto al que es descrito en los documentos que lo autoriza a funcionar abierto al público.
+Consumo de tabaco en establecimientos públicos.
+Reporte de personas encerradas dentro de establecimientos abiertos al público que estén infringiendo el horario de funcionamiento establecido. Alteración del orden público por ruido o escándalo en establecimientos abiertos al público."
+965;Fuga de Presos;"Persona que se encuentra legalmente detenida y se escapa del debido cuidado de la autoridad o vigilancia.
+Incluye fuga de menores de centros de reclusión, rehabilitación u hogares de paso."
+967;Menor en Establecimiento Mayores;Es la simple presencia de un menor en un establecimiento reglamentado para adultos en donde se expenda licor o tabaco.
+968;Pandillas Juveniles;Es la simple presencia de jóvenes en lugar público o abierto al público con el propósito inequívoco de cometer vandalismos o daños.
+969;Porte Ilegal de Armas;Avistamiento de armas o munición en poder de personas de las cuales se presume no poseen permisos para portarlas.
+972;Suplantación de Profesión u Oficio;Consiste en la presunta o comprobada sustitución que hace una persona ostentando las calidades o credenciales para representar un cargo o una entidad a la cual no pertenece, mediante falsas identificaciones, credenciales o el uso indebido de uniformes.
+973;Daños en Servicios Públicos;"Todo daño o alteración a los servicios públicos de agua o de electricidad que afecta grandes zonas públicas o a toda una comunidad. Si se trata de problemas con la red de Gas Natural, asigne el tipo de incidente 716.
+También los reportes de alcantarilla sin tapa o en mal estado."
+974;Amenaza de Ruina;Hecho que evidencia que una edificación está a punto de caerse o se ha derrumbado, poniendo en peligro a sus moradores.
+976;Extraviados / Desaparecidos;"Hace referencia a una persona que se encuentra perdida o extraviada. Gestionar el incidente y remitir al ciudadano a medicina legal con dos fotografías reciente de la persona desaparecida.
+Si LA PERSONA APARECIÓ: Gestionar incidente con Nombre, número de documento de identidad y dirección, documentando que la persona apareció. (No solicitar más datos)"
+977;Vehículo recuperado;Se refiere al vehículo que ha sido reportado como hurtado anteriormente y del cual se informa su avistamiento o ubicación.
+978;Hallazgo de Explosivos;Consiste en el hallazgo de elementos que por sus características pueden hacer expansión de gases de manera violenta y causar daño a las personas o a las cosas. Incluye el reporte de paquetes sospechosos.
+982;Aborto;Cuando reportan un establecimiento en donde se practique de forma ilegal el aborto. De requerirse atención médica tipificar como 607
+990;Restos Humanos;Restos humanos o partes de un cadáver (esqueletos, restos en avanzado estado de descomposición)
+992;Accidente de Aviación;Accidente que implica la participación de una aeronave con ocasión y causa de un vuelo.
