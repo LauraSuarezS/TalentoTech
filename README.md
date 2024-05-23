@@ -1,1 +1,1 @@
-Initial Commit
+[Jupyter Notebook TalentoTech](Scripts/TalentoTech.ipynb)
