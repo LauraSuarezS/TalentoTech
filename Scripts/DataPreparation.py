@@ -1,8 +1,19 @@
+# Laura Marcela Suarez Sanchez
+
+# Integracion de datos de diversas fuentes
+
+## Instalacion de librerias
+
+## Importacion de librerias
+
 import requests
 import pandas as pd
 import geopandas as gpd
 
-### NUSE
+## Lectura y limpieza Data Set's
+
+### nuse_df
+
 nuse_df = pd.read_csv(
     r"https://raw.githubusercontent.com/LauraSuarezS/TalentoTech/main/Data%20raw/NUSE.csv",
     encoding="latin-1",
@@ -16,8 +27,8 @@ nuse_df["COD_UPZ"] = nuse_df["COD_UPZ"].astype("string")
 nuse_df["UPZ"] = nuse_df["UPZ"].astype("string")
 nuse_df = nuse_df.drop_duplicates()
 
+### nuse_tipificacion_df
 
-### Tipificación NUSE
 nuse_tipificacion_df = pd.read_csv(
     r"https://raw.githubusercontent.com/LauraSuarezS/TalentoTech/main/Data%20raw/NUSETipificacion.csv",
     encoding="latin-1",
@@ -32,8 +43,8 @@ nuse_tipificacion_df["DEFINICION"] = nuse_tipificacion_df["DEFINICION"].astype("
 nuse_tipificacion_df["DEFINICION"] = nuse_tipificacion_df["DEFINICION"].str.upper()
 nuse_tipificacion_df = nuse_tipificacion_df.drop_duplicates()
 
+### cai_df
 
-## CAI's
 cai_response = requests.get(
     r"https://raw.githubusercontent.com/LauraSuarezS/TalentoTech/main/Data%20raw/CAI.geojson"
 )
@@ -100,14 +111,16 @@ cai_campos_dict = {
 
 cai_df = cai_df.rename(columns=cai_campos_dict)
 cai_df = cai_df.drop_duplicates()
+
+### Agrupacion de datos y creacion de subset
+
 cai_upz_cant_df = (
     cai_df.groupby("CODIGO_UPZ", as_index=False)
     .size()
     .rename(columns={"size": "CANTIDAD_CAI"})
 )
 
-
-# Join de datasets
+## Join de datasets
 
 result_security_df = nuse_df.merge(
     nuse_tipificacion_df, how="left", left_on="TIPO_INCIDENTE", right_on="COD_INCIDENTE"
@@ -116,7 +129,7 @@ result_security_df = result_security_df.merge(
     cai_upz_cant_df, how="left", left_on="COD_UPZ", right_on="CODIGO_UPZ"
 )
 
-# Filtrado de columnas
+### Filtrado de columnas
 
 result_security_df = result_security_df[
     [
@@ -145,4 +158,6 @@ result_security_df = result_security_df[
         ]
     )
 ]
+### Exportacion Data a formato CSV
+
 result_security_df.to_csv(r"Data refinada\security.csv", sep=";", index=False)
